@@ -1,115 +1,107 @@
-# ASI API Project
+# EMITE - Call Center Management API
 
-This project is a Web API that provides functionalities to manage authors and books. It allows you to create, update, retrieve, and delete books and authors.
+This project is a Call Center Management API built with ASP.NET Core (.NET 6). It provides endpoints for managing call center operations, including agents, calls, customers, and tickets. The API demonstrates skills in API design, database interactions, authentication, and testing.
 
 ## Features
 
-- Create authors.
-- Create and manage books associated with authors.
-- List books by author and genre.
-- Remove books from authors.
-
-## Technologies Used
-
-- ASP.NET Core
-- Entity Framework Core
-- MediatR
-- xUnit (for unit testing)
-- Moq (for mocking dependencies)
+- CRUD operations for Agents, Calls, Customers, and Tickets
+- JWT authentication
+- Dependency injection
+- Basic error handling and logging
+- Unit tests for service layer
+- Integration tests for API endpoints
+- Use of Entity Framework Core for database operations
+- Real-time notifications for new calls using SignalR (Optional)
+- Pagination, search functionality, in-memory caching, basic statistics endpoint, rate limiting (Optional)
+- Call routing algorithm to assign calls to available agents (Optional)
 
 ## Getting Started
 
 ### Prerequisites
 
-Make sure you have the following software installed on your machine:
+- [.NET Core SDK](https://dotnet.microsoft.com/download/dotnet/6.0)
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
+- [Swagger Codegen](https://swagger.io/tools/swagger-codegen/)
 
-- [.NET 6.0 SDK or later](https://dotnet.microsoft.com/download)
-- [Postman](https://www.postman.com/downloads/)
+### Installation
 
-### Running the Project
+1. Clone the repository:
 
-Design Choices
-Architecture: Describe the architecture of the application (e.g., MVC, Clean Architecture).
-Patterns Used: Explain the use of design patterns like CQRS (Command Query Responsibility Segregation) with MediatR for handling commands and queries.
+   ```bash
+   git clone https://github.com/RyanBanzuelaAyala/Emite.git
+   cd emite-call-center-management-api
+   ```
 
+2. Restore .NET dependencies:
 
-1. Extract Asi.Api
-2. Open Asi.Api.sln
-3. Run -- IIS Express
-	-- https://localhost:44387/swagger/index.html
+   ```bash
+   dotnet restore
+   ```
 
-4. Open PostMan
+3. Install npm dependencies:
 
-API Endpoints
+   ```bash
+   npm install
+   ```
 
-Author Endpoints
-Create Author
-Method: POST
-Route: /CreateAuthor
-CURL : curl -X 'POST' \
-  'https://localhost:44387/AuthorBook/CreateAuthor' \
-  -H 'accept: text/plain' \
-  -H 'Content-Type: application/json' \
-  -d '{
-  "id": 1,
-  "name": "string"
-}'
+4. Install Swagger Codegen CLI:
 
-Create Book with Author
-Method: PUT
-Route: /CreateBookWithAuthor
-CURL : curl -X 'PUT' \
-  'https://localhost:44387/AuthorBook/CreateBookWithAuthor?authorId=1' \
-  -H 'accept: text/plain' \
-  -H 'Content-Type: application/json' \
-  -d '{
-  "id": 1,
-  "title": "Test Book 1",
-  "genre": "Fiction",
-  "authorId": 1
-}'
+   ```bash
+   npm install -g swagger-codegen-cli
+   ```
 
-List Books by Author
-Method: POST
-Route: /ListBookByAuthor
-CURL : curl -X 'POST' \
-  'https://localhost:44387/AuthorBook/ListBookByAuthor' \
-  -H 'accept: text/plain' \
-  -H 'Content-Type: application/json' \
-  -d '1'
+### Running the Application
 
+1. Start the application:
 
-Update Book Details
-Method: PUT
-Route: /UpdateBookDetails
-CURL : curl -X 'PUT' \
-  'https://localhost:44387/AuthorBook/UpdateBookDetails' \
-  -H 'accept: text/plain' \
-  -H 'Content-Type: application/json' \
-  -d '{
-  "id": 1,
-  "title": "Test Book 1 - New",
-  "genre": "Fiction",
-  "authorId": 1
-}'
+   ```bash
+   dotnet run
+   ```
 
+2. Open your browser and navigate to `https://localhost:5001/swagger` to view the Swagger UI documentation.
 
-Remove Book from Author
-Method: DELETE
-Route: /RemoveBookFromAuthor
-CURL : curl -X 'DELETE' \
-  'https://localhost:44387/AuthorBook/RemoveBookFromAuthor' \
-  -H 'accept: text/plain' \
-  -H 'Content-Type: application/json' \
-  -d '1'
+### API Endpoints
 
-### Testing the Project
+#### Agents
 
-1. Extract Asi.Api
-2. Open Asi.Api.sln
-3. Goto View -> Test Explorer
-	- Run All
-	- Debug All
+- Retrieve all agents: `GET /api/agents`
+- Retrieve a specific agent: `GET /api/agents/{id}`
+- Add a new agent: `POST /api/agents`
+- Update an existing agent: `PUT /api/agents/{id}`
+- Delete an agent: `DELETE /api/agents/{id}`
+- Update agent status: `PATCH /api/agents/{id}/status`
 
-License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+#### Calls
+
+- Retrieve all calls: `GET /api/calls`
+- Retrieve a specific call: `GET /api/calls/{id}`
+- Create a new call: `POST /api/calls`
+- Update an existing call: `PUT /api/calls/{id}`
+- Delete a call: `DELETE /api/calls/{id}`
+- Assign a call to an agent: `PATCH /api/calls/{id}/assign`
+
+#### Customers
+
+- Retrieve all customers: `GET /api/customers`
+- Retrieve a specific customer: `GET /api/customers/{id}`
+- Add a new customer: `POST /api/customers`
+- Update an existing customer: `PUT /api/customers/{id}`
+- Delete a customer: `DELETE /api/customers/{id}`
+
+#### Tickets
+
+- Retrieve all tickets: `GET /api/tickets`
+- Retrieve a specific ticket: `GET /api/tickets/{id}`
+- Create a new ticket: `POST /api/tickets`
+- Update an existing ticket: `PUT /api/tickets/{id}`
+- Delete a ticket: `DELETE /api/tickets/{id}`
+- Assign a ticket to an agent: `PATCH /api/tickets/{id}/assign`
+
+## Contributing
+
+Contributions are welcome! Please follow the guidelines outlined in `CONTRIBUTING.md`.
+
+## License
+
+This project is licensed under the MIT License. See `LICENSE.md` for more information.

@@ -1,0 +1,12 @@
+C:\Users\pinoy\Desktop\Emite.Api\Emite.SignalR\bin\Debug\net6.0\Emite.SignalR.deps.json
+C:\Users\pinoy\Desktop\Emite.Api\Emite.SignalR\bin\Debug\net6.0\Emite.SignalR.dll
+C:\Users\pinoy\Desktop\Emite.Api\Emite.SignalR\bin\Debug\net6.0\Emite.SignalR.pdb
+C:\Users\pinoy\Desktop\Emite.Api\Emite.SignalR\obj\Debug\net6.0\Emite.SignalR.csproj.AssemblyReference.cache
+C:\Users\pinoy\Desktop\Emite.Api\Emite.SignalR\obj\Debug\net6.0\Emite.SignalR.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pinoy\Desktop\Emite.Api\Emite.SignalR\obj\Debug\net6.0\Emite.SignalR.AssemblyInfoInputs.cache
+C:\Users\pinoy\Desktop\Emite.Api\Emite.SignalR\obj\Debug\net6.0\Emite.SignalR.AssemblyInfo.cs
+C:\Users\pinoy\Desktop\Emite.Api\Emite.SignalR\obj\Debug\net6.0\Emite.SignalR.csproj.CoreCompileInputs.cache
+C:\Users\pinoy\Desktop\Emite.Api\Emite.SignalR\obj\Debug\net6.0\Emite.SignalR.dll
+C:\Users\pinoy\Desktop\Emite.Api\Emite.SignalR\obj\Debug\net6.0\refint\Emite.SignalR.dll
+C:\Users\pinoy\Desktop\Emite.Api\Emite.SignalR\obj\Debug\net6.0\Emite.SignalR.pdb
+C:\Users\pinoy\Desktop\Emite.Api\Emite.SignalR\obj\Debug\net6.0\ref\Emite.SignalR.dll

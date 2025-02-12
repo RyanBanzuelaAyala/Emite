@@ -1,0 +1,20 @@
+{
+  "Version": 1,
+  "Hash": "KTPRpaLHtkTSj01zz26LAPrzhrVXlsCuQGY8EN2Pmzc=",
+  "Source": "Emite.Api",
+  "BasePath": "_content/Emite.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Emite.Api\\wwwroot",
+      "Source": "Emite.Api",
+      "ContentRoot": "C:\\Users\\pinoy\\Desktop\\Emite.Api\\Emite.Api\\wwwroot\\",
+      "BasePath": "_content/Emite.Api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [],
+  "Endpoints": []
+}

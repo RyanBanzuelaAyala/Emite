@@ -1,0 +1,12 @@
+C:\Users\pinoy\Desktop\Emite.Api\Emite.Base\bin\Debug\net6.0\Emite.Base.deps.json
+C:\Users\pinoy\Desktop\Emite.Api\Emite.Base\bin\Debug\net6.0\Emite.Base.dll
+C:\Users\pinoy\Desktop\Emite.Api\Emite.Base\bin\Debug\net6.0\Emite.Base.pdb
+C:\Users\pinoy\Desktop\Emite.Api\Emite.Base\obj\Debug\net6.0\Emite.Base.csproj.AssemblyReference.cache
+C:\Users\pinoy\Desktop\Emite.Api\Emite.Base\obj\Debug\net6.0\Emite.Base.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pinoy\Desktop\Emite.Api\Emite.Base\obj\Debug\net6.0\Emite.Base.AssemblyInfoInputs.cache
+C:\Users\pinoy\Desktop\Emite.Api\Emite.Base\obj\Debug\net6.0\Emite.Base.AssemblyInfo.cs
+C:\Users\pinoy\Desktop\Emite.Api\Emite.Base\obj\Debug\net6.0\Emite.Base.csproj.CoreCompileInputs.cache
+C:\Users\pinoy\Desktop\Emite.Api\Emite.Base\obj\Debug\net6.0\Emite.Base.dll
+C:\Users\pinoy\Desktop\Emite.Api\Emite.Base\obj\Debug\net6.0\refint\Emite.Base.dll
+C:\Users\pinoy\Desktop\Emite.Api\Emite.Base\obj\Debug\net6.0\Emite.Base.pdb
+C:\Users\pinoy\Desktop\Emite.Api\Emite.Base\obj\Debug\net6.0\ref\Emite.Base.dll

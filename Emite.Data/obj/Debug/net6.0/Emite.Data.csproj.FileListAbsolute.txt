@@ -1,0 +1,15 @@
+C:\Users\pinoy\Desktop\Emite.Api\Emite.Data\bin\Debug\net6.0\Emite.Data.deps.json
+C:\Users\pinoy\Desktop\Emite.Api\Emite.Data\bin\Debug\net6.0\Emite.Data.dll
+C:\Users\pinoy\Desktop\Emite.Api\Emite.Data\bin\Debug\net6.0\Emite.Data.pdb
+C:\Users\pinoy\Desktop\Emite.Api\Emite.Data\bin\Debug\net6.0\Emite.Domain.dll
+C:\Users\pinoy\Desktop\Emite.Api\Emite.Data\bin\Debug\net6.0\Emite.Domain.pdb
+C:\Users\pinoy\Desktop\Emite.Api\Emite.Data\obj\Debug\net6.0\Emite.Data.csproj.AssemblyReference.cache
+C:\Users\pinoy\Desktop\Emite.Api\Emite.Data\obj\Debug\net6.0\Emite.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pinoy\Desktop\Emite.Api\Emite.Data\obj\Debug\net6.0\Emite.Data.AssemblyInfoInputs.cache
+C:\Users\pinoy\Desktop\Emite.Api\Emite.Data\obj\Debug\net6.0\Emite.Data.AssemblyInfo.cs
+C:\Users\pinoy\Desktop\Emite.Api\Emite.Data\obj\Debug\net6.0\Emite.Data.csproj.CoreCompileInputs.cache
+C:\Users\pinoy\Desktop\Emite.Api\Emite.Data\obj\Debug\net6.0\Emite.Data.csproj.Up2Date
+C:\Users\pinoy\Desktop\Emite.Api\Emite.Data\obj\Debug\net6.0\Emite.Data.dll
+C:\Users\pinoy\Desktop\Emite.Api\Emite.Data\obj\Debug\net6.0\refint\Emite.Data.dll
+C:\Users\pinoy\Desktop\Emite.Api\Emite.Data\obj\Debug\net6.0\Emite.Data.pdb
+C:\Users\pinoy\Desktop\Emite.Api\Emite.Data\obj\Debug\net6.0\ref\Emite.Data.dll
